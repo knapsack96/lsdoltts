@@ -1,10 +1,7 @@
 import os
 from matplotlib import pyplot as plt
 import numpy as np
-import torch
-import torch.nn as nn
 import pickle
-import numpy as np
 def compute_iou(boxA, boxB):
     xA = max(boxA[0], boxB[0])
     yA = max(boxA[1], boxB[1])
